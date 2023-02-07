@@ -1,5 +1,6 @@
 import React from 'react';
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import Footer from './components/footer';
 
 const config: DocsThemeConfig = {
   logo: <span style={{color: 'teal', fontSize:'36px', fontWeight: 'bold', }}>Code Articles</span>,
@@ -13,10 +14,10 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/iamClutchX/code-articles-x',
   footer: {
-    component: 'footer',
-    text: <span style={{color: 'teal', fontSize:'20px', fontWeight: 'bold',
-    alignItems: 'center',
-     display: 'flex',  justifyContent: 'center'}}>2023 © Code Articles</span>,
+    component: <Footer />,
+    // text: <span style={{color: 'teal', fontSize:'20px', fontWeight: 'bold',
+    // alignItems: 'center',
+    //  display: 'flex',  justifyContent: 'center'}}>2023 © Code Articles</span>,
     
   },
   
