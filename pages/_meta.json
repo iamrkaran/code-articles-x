@@ -1,7 +1,16 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": "About Us",
+  "cpp": "C++",
+  "java": "Java",
+  "python": "Python",
+  "javascript": "JavaScript",
+  "php": "PHP",
+  "ruby": "Ruby",
+  "go": "Go",
+  "rust": "Rust",
+  "swift": "Swift",
+  "kotlin": "Kotlin",
+  "dart": "Dart",
   "about": {
     "title": "About",
     "type": "page"
@@ -9,7 +18,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "mailto:iamr.karan@gmail.com",
     "newWindow": true
   }
 }
