@@ -2,7 +2,8 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>Code Articles</span>,
+  logo: <span style={{color: 'teal', fontSize:'36px', fontWeight: 'bold', }}>Code Articles</span>,
+
   project: {
     link: 'https://github.com/iamClutchX/code-articles-x',
   },
@@ -11,9 +12,16 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/iamClutchX/code-articles-x',
   footer: {
-    text: 'Code Articles',
+    text: <span style={{color: 'teal', fontSize:'20px', fontWeight: 'bold',
+    alignItems: 'center',
+     display: 'flex',  justifyContent: 'center'}}>2023 © Code Articles</span>,
+    
   },
+
+  // Google Analytics
+  
 
 }
 
 export default config
+
