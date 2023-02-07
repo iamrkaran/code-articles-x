@@ -3,7 +3,7 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 import Footer from './components/footer';
 
 const config: DocsThemeConfig = {
-  logo: <span style={{color: 'teal', fontSize:'36px', fontWeight: 'bold', }}>Code Articles</span>,
+  logo: <span style={{color: 'teal', fontSize:'1.5rem', fontWeight: 'bold', }}>Code Articles</span>,
   project: {
     // icon: 'https://avatars.githubusercontent.com/u/77556288?s=200&v=4',
     link: 'https://github.com/iamClutchX/code-articles-x',
