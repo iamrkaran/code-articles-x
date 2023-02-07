@@ -1,6 +1,6 @@
 # Code Articles
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+This is a template for creating documentation with
 
 [**Live Demo →**](https://nextra-docs-template.vercel.app)
 
