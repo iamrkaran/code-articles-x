@@ -4,11 +4,11 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span style={{color: 'teal', fontSize:'36px', fontWeight: 'bold', }}>Code Articles</span>,
   project: {
-    icon: 'https://avatars.githubusercontent.com/u/77556288?s=200&v=4',
+    // icon: 'https://avatars.githubusercontent.com/u/77556288?s=200&v=4',
     link: 'https://github.com/iamClutchX/code-articles-x',
   },
   chat: {
-    icon: 'https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png',
+    // icon: 'https://discord.com/assets/2c21aeda16de354ba5334551a883b481.png',
     link: 'https://discord.gg/YNThsCfjuA',
   },
   docsRepositoryBase: 'https://github.com/iamClutchX/code-articles-x',
